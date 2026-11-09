@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<meta name="description" content="Privacy policy for the personal rclone Google Drive client used by José Manuel Echevarría Rubio.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #f2f5f3; --ink: #0f2930; --muted: #4b6269; --line: #c9d6d3; --accent: #8f6100;
+  --font-body: "IBM Plex Sans", system-ui, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0c1d22; --ink: #e3ecea; --muted: #9db3b3; --line: #23404a; --accent: #e3a93b;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0c1d22; --ink: #e3ecea; --muted: #9db3b3; --line: #23404a; --accent: #e3a93b;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 1.0625rem/1.65 var(--font-body); }
+main { max-width: 66ch; margin: 0 auto; padding: 3rem 16px 4rem; }
+h1 { font-size: 1.75rem; line-height: 1.2; margin: 0 0 .25rem; }
+h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.meta { font-family: var(--font-mono); font-size: .85rem; color: var(--muted); margin: 0 0 2rem; }
+a { color: var(--accent); }
+ul { padding-left: 1.25rem; }
+footer { max-width: 66ch; margin: 0 auto; padding: 0 16px 3rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">rclone Google Drive client &middot; last updated 9 November 2026</p>
+
+  <p>This page covers the Google OAuth client named <strong>rclone</strong>, registered by
+  José Manuel Echevarría Rubio. It is a personal tool, not a public service: its only user is
+  the owner, who uses the open-source program <a href="https://rclone.org/">rclone</a> to sync
+  files between his own computers and his own Google Drive.</p>
+
+  <h2>What data is accessed</h2>
+  <p>With the owner's consent, the client reads and writes files in the owner's own Google Drive
+  account, using the Google Drive API. It does not access any other Google data, and it is not
+  offered to anyone else.</p>
+
+  <h2>How the data is used and stored</h2>
+  <ul>
+    <li>Files are copied only between the owner's Google Drive and the owner's own computers.</li>
+    <li>The OAuth tokens that grant access are stored only in the rclone configuration file on
+      those computers.</li>
+    <li>No data is collected, stored on any other server, sold, shared with third parties, or used
+      for advertising or analytics.</li>
+  </ul>
+
+  <h2>Revoking access</h2>
+  <p>Access can be revoked at any time at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>Use of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+  User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:jechevarriar17@gmail.com">jechevarriar17@gmail.com</a></p>
+</main>
+<footer><a href="https://aquab1t.github.io/">&larr; Home</a></footer>
+</body>
+</html>
